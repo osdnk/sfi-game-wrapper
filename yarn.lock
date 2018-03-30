@@ -4112,7 +4112,7 @@ setprototypeof@1.1.0:
 
 "sfi-sample-game@git://github.com/osdnk/sfi-sample-game.git":
   version "0.1.3"
-  resolved "git://github.com/osdnk/sfi-sample-game.git#d1b18568904315d16554d069721db1340430a1c1"
+  resolved "git://github.com/osdnk/sfi-sample-game.git#a31dae94bda64787064f1eef48c022980f881ed7"
   dependencies:
     expo "^26.0.0"
     immutability-helper "^2.6.6"

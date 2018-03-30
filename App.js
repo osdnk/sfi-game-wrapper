@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Alert } from 'react-native';
 import GameContainer from 'sfi-sample-game'
 
 export default class App extends React.Component {
@@ -14,7 +14,9 @@ export default class App extends React.Component {
           left: 0,
           right: 0
         }}>
-          <GameContainer/>
+          <GameContainer
+            onFinish={(points) => console.log(`got ${points} points`)}
+          />
         </View>
       </View>
     );
